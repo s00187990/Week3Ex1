@@ -10,7 +10,7 @@ namespace Week3Ex1
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("test");
         }
     }
 }
