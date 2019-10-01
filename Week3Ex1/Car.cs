@@ -8,18 +8,20 @@ namespace Week3Ex1
 {
     public class Car
     {
+        private string make;
+
         public string Make
         {
-            get { return this.Make; }
-            set { this.Make = value; }
+            get { return this.make; }
+            set { this.make = value; }
         }
 
-        private string _model;
+        private string model;
 
         public string Model
         {
-            get { return this._model; }
-            set { this.Model = value; }
+            get { return this.model; }
+            set { this.model = value; }
         }
 
         private int currentSpeed;
